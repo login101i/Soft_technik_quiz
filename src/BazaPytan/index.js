@@ -239,7 +239,7 @@ const qBank = [
   },
   {
     question: "Co jest niepoprawne w tym zapisie python?",
-    src: require("../assets/images/MicrosoftTeams-image_1"),
+    src: require("../assets/images/MicrosoftTeams-image_1.png"),
     answers: [
       "Należy zamienić == na ===",
       "należy zamienić nawiasy [ ] na { }",
