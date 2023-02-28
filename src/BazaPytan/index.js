@@ -47,7 +47,7 @@ const qBank = [
   },
   {
     question: "Plan wdrożenia obejmuje: ",
-    answers: ["Tworzenie bazy pod Klienta, edutujac baze wejsciową,", "Tworzenie bazy pod Klienta bazując od zera"],
+    answers: ["Tworzenie bazy pod Klienta, edutujac baze wejsciową", "Tworzenie bazy pod Klienta bazując od zera"],
     correct: "Tworzenie bazy pod Klienta, edutujac baze wejsciową",
     questionId: Math.random(),
   },
@@ -220,7 +220,7 @@ const qBank = [
     questionId: Math.random(),
   },
   {
-    question: "Zmiennne systemowe to to samo co zmiennne tłumaczeniowe",
+    question: "Zmienne systemowe to to samo co zmienne tłumaczeniowe",
     answers: ["NIE", "TAK"],
     correct: "NIE",
     questionId: Math.random(),
