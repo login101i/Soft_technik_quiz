@@ -250,12 +250,12 @@ const qBank = [
       "Jest wszystko ok",
     questionId: Math.random(),
   },
-  {
-    question: "------------",
-    answers: [   ],
-    correct: 
-    questionId: Math.random(),
-  },
+  // {
+  //   question: "------------",
+  //   answers: [   ],
+  //   correct: "------------",
+  //   questionId: Math.random(),
+  // },
   
 ];
 // jak wygląda uchwyt do rury fi 160 przegugowy,
