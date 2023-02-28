@@ -35,7 +35,7 @@ const qBank = [
   },
   {
     question: "Najważniejszą informacją jest przy zakładaniu projektu jest:",
-    answers: ["Kto będzie prowadził projekt ze strony Klienta", "Ile jest stopni na zewnątrz", "", ""],
+    answers: ["Kto będzie prowadził projekt ze strony Klienta", "Ile jest stopni na zewnątrz"],
     correct: "Kto będzie prowadził projekt ze strony Klienta",
     questionId: Math.random(),
   },
@@ -96,7 +96,7 @@ const qBank = [
 
   {
     question: "Jak już mam osobę do kontaktu od strony Klienta to?",
-    answers: ["Weryfikujemy z nią ustalenia z Adamem", "Przechodzisz do działania", "", ""],
+    answers: ["Weryfikujemy z nią ustalenia z Adamem", "Przechodzisz do działania"],
     correct: "Weryfikujesz z nią ustalenia z Adamem",
     questionId: Math.random(),
   },
@@ -120,7 +120,7 @@ const qBank = [
   },
   {
     question: "Co musi zadeklarować Klient odnośnie materiałów w OM? ",
-    answers: ["Jak będą nazywać się materiały w OM oraz muszą być wpisane wymiary płyty.", "Jak będą nazywać się materiały w OM.", "", ""],
+    answers: ["Jak będą nazywać się materiały w OM oraz muszą być wpisane wymiary płyty.", "Jak będą nazywać się materiały w OM."],
     correct: "Jak będą nazywać się materiały w OM oraz musża być wpisane wymiary płyty.",
     questionId: Math.random(),
   },
@@ -182,13 +182,13 @@ const qBank = [
 
   {
     question: "W drugim punkcie .... najlepiej zrobić?",
-    answers: ["Przeczytaj o co chodzi sam :)", "Kawę i to mocną", "", ""],
+    answers: ["Przeczytaj o co chodzi sam :)", "Kawę i to mocną",  ],
     correct: "Analizę produkcji i produkcję",
     questionId: Math.random(),
   },
   {
     question: "Co należy zrobić szczegóło z Klientem dot. aspektów produkcyjnych?",
-    answers: ["Szczegółowo wypytać Klinta dot. aspektów produkcyjnych", "Szczegółowo wypytać Klinta dot. aspektów produkcyjnych oraz aby ŁK był obecny w tej rozmowie", "", ""],
+    answers: ["Szczegółowo wypytać Klinta dot. aspektów produkcyjnych", "Szczegółowo wypytać Klinta dot. aspektów produkcyjnych oraz aby ŁK był obecny w tej rozmowie"],
     correct: "Szczegółowo wypytać Klinta dot. aspektów produkcyjnych oraz aby ŁK był obecny w tej rozmowie",
     questionId: Math.random(),
   },
@@ -221,7 +221,7 @@ const qBank = [
   },
   {
     question: "Zmiennne systemowe to to samo co zmiennne tłumaczeniowe",
-    answers: ["NIE", "TAK", "", ""],
+    answers: ["NIE", "TAK"],
     correct: "NIE",
     questionId: Math.random(),
   },
@@ -233,7 +233,7 @@ const qBank = [
   },
   {
     question: "Zmienne globalne wyszukujemy poprzez 'x' w programie HeidiSQL",
-    answers: ["name", "value", "", ""],
+    answers: ["name", "value",  ],
     correct: "name",
     questionId: Math.random(),
   },
@@ -252,8 +252,8 @@ const qBank = [
   },
   {
     question: "------------",
-    answers: ["", "", "", ""],
-    correct: "",
+    answers: [   ],
+    correct: 
     questionId: Math.random(),
   },
   
