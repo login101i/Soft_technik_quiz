@@ -48,10 +48,7 @@ const QuestionBox = ({ question, answers, correct, wybranoDobrze, wybranoZle, ws
                             setAnswer(item)
                             const answerIndex = answers[answers.indexOf(item)]
                             
-                            console.log(answerIndex, item, answer)
-
                             let wszystkieBtn = document.querySelectorAll('.answerBtn')
-                            console.log(wszystkieBtn)
                             let kliknietyBtn = Array.from(document.querySelectorAll('.answerBtn')).find(el => el.innerText === item.trim());
 
                             const ancestor = kliknietyBtn.parentElement
@@ -75,23 +72,16 @@ const QuestionBox = ({ question, answers, correct, wybranoDobrze, wybranoZle, ws
                                 wybranoZle(answerIndex, item)
                             }
                             const iloscButtonow = wszystkieBtn.length
-                            console.log(iloscButtonow)
                          
-                            console.log(iloscButtonow)
                             for (let i = 0; i < iloscButtonow; i++) {
                                 let nieaktywny = wszystkieBtn[i].disabled === true
-                                console.log(nieaktywny)
                             }
-                            console.log(wszystkieBtn)
                             const tablicaWszystkichButtonow=Array.from(wszystkieBtn)
-                            console.log(tablicaWszystkichButtonow)
                             const liczbaNiekatywnychBtn=tablicaWszystkichButtonow.filter(obj=>obj.disabled).length
-                            console.log(liczbaNiekatywnychBtn)
 
                             if(liczbaNiekatywnychBtn===iloscButtonow){
                                 setTimeout(()=>{
                                     wszystkieNieaktywne()
-                                    console.log("będę konczył grę")
                                 }, 2000)
                             }
                         }}

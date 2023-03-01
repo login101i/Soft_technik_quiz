@@ -250,6 +250,68 @@ const qBank = [
       "Jest wszystko ok",
     questionId: Math.random(),
   },
+  {
+    question: "Symbole BP, FS, PA, TS, BRA odnosie się odpowiednio do:",
+    answers: [ "ściana tylna, przegroda pozioma, przegroda pionowa, wieniec górny, trawers tylny", "ściana tylna, przegroda pionowa, przegroda pozioma, wieniec górny, trawers tylny", "ściana tylna, przegroda pozioma, przegroda pozioma, wieniec górny, trawers tylny"  ],
+    correct: "ściana tylna, przegroda pozioma, przegroda pionowa, wieniec górny, trawers tylny",
+    questionId: Math.random(),
+  },
+  {
+    question: "Symbole FRL1 i DRFR1 odnoszą się odpowiednio do:",
+    answers: [ "front lewy, front szuflady", "front szuflady, front lewy"  ],
+    correct: "front lewy, front szuflady",
+    questionId: Math.random(),
+  },
+  {
+    question: "Trzeci wers odnosi się do :",
+    src: require("../assets/images/MicrosoftTeams-image_2.png"),
+    answers: [ "Szafki z dwoma głęboki szufladami i jedna niską", "Szafki z dwoma niskimi szufladami i jedna głęboką"  ],
+    correct: "Szafki z dwoma głęboki szufladami i jedna niską",
+    questionId: Math.random(),
+  },
+  {
+    question: "Ścianka tylna szuflady ma grubość :",
+    answers: [ "16mm", " tak jak front: 18mm",  "22mm" ],
+    correct: "16mm",
+    questionId: Math.random(),
+  },
+  {
+    question: "Ścianka tylna szuflady ma grubość :",
+    answers: [ "16mm", " tak jak front: 18mm",  "22mm" ],
+    correct: "16mm",
+    questionId: Math.random(),
+  },
+  {
+    question: "Oznaczenie 11246013001 mówi nam, że jest to szuflada:",
+    answers: [ "Systemowa Blum TBX, mówią nam o tym pierwsze cyfry 112", "Systemowa Hettich", "Systemowa Blum LBX, mówią nam o tym pierwsze cyfry 112"],
+    correct: "Systemowa Blum TBX, mówią nam o tym pierwsze cyfry 112",
+    questionId: Math.random(),
+  },
+  {
+    question: "Konfiguracja standardowa szuflad zawiera",
+    answers: ["System szuflad Blum TANDEMBOX antaro, maksymalne obciążenie szuflad 30kg", "System szuflad Blum LEGRABOX antaro, maksymalne obciążenie szuflad 30kg"],
+    correct: "System szuflad Blum TANDEMBOX antaro, maksymalne obciążenie szuflad 30kg",
+    questionId: Math.random(),
+  },
+  
+  {
+    question: "czym charakteryzuje się szuflada LegraBox?",
+    answers: [ "Legrabox to prostokątny cienki bok zaledwie 12 mm, niskie prowadnice MOVENTO. LEGRABOX może być wyposażony w system TIP-ON BLUMOTION pozwalające na otwieranie szuflad bez uchwytów i ich ciche domykanie. "  ],
+    correct: "Legrabox to prostokątny cienki bok zaledwie 12 mm, niskie prowadnice MOVENTO. LEGRABOX może być wyposażony w system TIP-ON BLUMOTION pozwalające na otwieranie szuflad bez uchwytów i ich ciche domykanie. ",
+    questionId: Math.random(),
+  },
+  {
+    question: "Czym charakteryzuje się szuflada TandemBox",
+    answers: ["TANDEMBOX posiada dużą nośność – do 65 kg, w połączeniu z relingami pozwala na zastosowanie wysokich frontów."],
+    correct: "TANDEMBOX posiada dużą nośność – do 65 kg, w połączeniu z relingami pozwala na zastosowanie wysokich frontów.",
+    questionId: Math.random(),
+  },
+  {
+    question: "Tylko w szufladach LegraBox można dostosować kolor boków.",
+    answers: ["Tak, to prawda. TandemBox nie ma takiej możilwości.", "Nie, to TandemBox ma taką możliwość", "Nie, obie szuflady mają opcję wyboru koloru"],
+    correct: "Nie, obie szuflady mają opcję wyboru koloru",
+    questionId: Math.random(),
+  },
   // {
   //   question: "------------",
   //   answers: [   ],

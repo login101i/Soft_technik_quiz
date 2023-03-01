@@ -4,7 +4,6 @@ import React from 'react'
 import {numberOfQuestion} from  '../BazaPytan/index.js'
 
 const Result = ({ score, responses, grajPonownie }) => {
-    console.log(score, responses)
     return (
         <div className="score-card">
             <div className="score">
