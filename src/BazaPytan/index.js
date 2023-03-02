@@ -270,6 +270,13 @@ const qBank = [
     questionId: Math.random(),
   },
   {
+    question: "Co oznacza symbol DRBS:",
+    src: require("../assets/images/MicrosoftTeams-image_3.png"),
+    answers: [ "-------", "-------"  ],
+    correct: "-------",
+    questionId: Math.random(),
+  },
+  {
     question: "Ścianka tylna szuflady ma grubość :",
     answers: [ "16mm", " tak jak front: 18mm",  "22mm" ],
     correct: "16mm",
@@ -312,6 +319,76 @@ const qBank = [
     correct: "Nie, obie szuflady mają opcję wyboru koloru",
     questionId: Math.random(),
   },
+  {
+    question: "FrontVerticalOffsetTop wynosi:",
+    answers: ["4mm", "2mm", "7mm"],
+    correct: "4mm",
+    questionId: Math.random(),
+  },
+  {
+    question: "System Blumotion dotyczy:",
+    answers: ["Dopasowania prędkości zamykania frontu", "Dopasowania prędkości otwierania frontu", "Automatycznego bezdotykowego otwierania frontów"],
+    correct: "Dopasowania prędkości zamykania frontu",
+    questionId: Math.random(),
+  },
+  {
+    question: "System Blumotion może dotyczyć:",
+    answers: ["Frontów szuflad", "Frontów otwieranych lewo/prawo ", "Zarówno frontów szuflad jak i frontów lewych i prawych"],
+    correct: "Zarówno frontów szuflad jak i frontów lewych i prawych",
+    questionId: Math.random(),
+  },
+  {
+    question: "System Blumotion może dotyczyć:",
+    answers: ["Frontów szuflad", "Frontów otwieranych lewo/prawo ", "Zarówno frontów szuflad jak i frontów lewych i prawych"],
+    correct: "Zarówno frontów szuflad jak i frontów lewych i prawych",
+    questionId: Math.random(),
+  },
+  {
+    question: "Wysokość szuflady standardowej N oznacza minimalny zakres przestrzeni od : ",
+    answers: ["82.5mm", "92.5mm"],
+    correct: "82.5mm",
+    questionId: Math.random(),
+  },
+  {
+    question: "Wysokość szuflady N oznacza minimalny zakres przestrzeni od : ",
+    answers: ["82.5mm", "92.5mm"],
+    correct: "82.5mm",
+    questionId: Math.random(),
+  },
+  {
+    question: "Wysokość szuflady N, M, K oznaczają szuflady: ",
+    answers: ["standardowe", "z wysokim frontem", "z wysokim frontem i relingiem"],
+    correct: "standardowe",
+    questionId: Math.random(),
+  },
+
+  {
+    question: "System servo drive przeznaczony jest do : ",
+    answers: ["Do łatwego otwierania oraz zamykania nie tylko mniejszych czy średnich, ale też dużych szuflad.", "Do łatwego otwierania oraz zamykania nie tylko mniejszych czy średnich, ale nie dużych szuflad."],
+    correct: "Do łatwego otwierania oraz zamykania nie tylko mniejszych czy średnich, ale też dużych szuflad.",
+    questionId: Math.random(),
+  },
+
+  {
+    question: "Blumotion to: ",
+    answers: ["Delikatne i ciche zamykanie dba BLUMOTION.", "Elektryczne wspomaganie otwierania."],
+    correct: "Delikatne i ciche zamykanie dba BLUMOTION.",
+    questionId: Math.random(),
+  },
+
+   {
+    question: "Większe obciążenie przyjmuje szuflada:",
+    answers: [ "Blum LBX, odpowiednio 40/70kg", "Blum TBX, odpowiednio 40/70kg", "Blum TBX, odpowiednio 30/65kg"  ],
+    correct: "Blum LBX, odpowiednio 40/70kg",
+    questionId: Math.random(),
+  },
+   {
+    question: "Czym jest Order Manager?",
+    answers: [ "Stanowi platformę zarządzającą, do której podłączone są kolejne moduły, dzięki czemu pozwala na wgląd, zarządzanie i realizację zleceń w czasie rzeczywistym.", "Stanowi platformę zarządzającą optymalizacją rozkroju płyt, wykorzystując do tego najnowocześniejsze algorytmy"  ],
+    correct: "Stanowi platformę zarządzającą, do której podłączone są kolejne moduły, dzięki czemu pozwala na wgląd, zarządzanie i realizację zleceń w czasie rzeczywistym.",
+    questionId: Math.random(),
+  },
+  
   // {
   //   question: "------------",
   //   answers: [   ],
@@ -322,6 +399,7 @@ const qBank = [
 ];
 // jak wygląda uchwyt do rury fi 160 przegugowy,
 // https://www.europanels.pl/wp-content/uploads/Dwuteowniki-rownolegloscienne.jpg
+
 
 export default (shuffledQuestions = numberOfQuestion) =>
   Promise.resolve(
