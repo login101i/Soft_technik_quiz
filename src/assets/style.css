@@ -87,7 +87,7 @@ margin:20px;
 
 
 .imageQuestion {
-  height:500px;
+  height:700px;
   object-fit: contain;
   align-items:center;
   border-radius:10px;
@@ -288,8 +288,8 @@ margin:20px;
 }
 
 .imageQuestion {
-  width:300px;
-  height:200px;
+  width:700px;
+  height:400px;
   object-fit: contain;
   border-radius:6px;
   overflow:hidden;
