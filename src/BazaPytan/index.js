@@ -1,7 +1,7 @@
-export const shuffledQuestions = 8;
+export const shuffledQuestions = 20;
 
 // Decide how many question you want to see in a game.
-export const numberOfQuestion = 10;
+export const numberOfQuestion = 20;
 const qBank = [
   {
     question: "Przy wdrożeniu o co mam zapytać Adama?",
@@ -121,7 +121,7 @@ const qBank = [
   {
     question: "Co musi zadeklarować Klient odnośnie materiałów w OM? ",
     answers: ["Jak będą nazywać się materiały w OM oraz muszą być wpisane wymiary płyty.", "Jak będą nazywać się materiały w OM."],
-    correct: "Jak będą nazywać się materiały w OM oraz musża być wpisane wymiary płyty.",
+    correct: "Jak będą nazywać się materiały w OM oraz muszą być wpisane wymiary płyty.",
     questionId: Math.random(),
   },
   {
@@ -182,7 +182,7 @@ const qBank = [
 
   {
     question: "W drugim punkcie .... najlepiej zrobić?",
-    answers: ["Przeczytaj o co chodzi sam :)", "Kawę i to mocną",  ],
+    answers: ["Analizę produkcji i produkcję", "Kawę i to mocną"  ],
     correct: "Analizę produkcji i produkcję",
     questionId: Math.random(),
   },
@@ -386,6 +386,12 @@ const qBank = [
     question: "Czym jest Order Manager?",
     answers: [ "Stanowi platformę zarządzającą, do której podłączone są kolejne moduły, dzięki czemu pozwala na wgląd, zarządzanie i realizację zleceń w czasie rzeczywistym.", "Stanowi platformę zarządzającą optymalizacją rozkroju płyt, wykorzystując do tego najnowocześniejsze algorytmy"  ],
     correct: "Stanowi platformę zarządzającą, do której podłączone są kolejne moduły, dzięki czemu pozwala na wgląd, zarządzanie i realizację zleceń w czasie rzeczywistym.",
+    questionId: Math.random(),
+  },
+  {
+    question: "Co to jest szerokość rzazu?",
+    answers: [ "Szerokość zęba piły tarczowerj wyznaczająca szerokośc rowka wycinanego przez tarczę pilarska w obrabianym materiale.", "Szerokość zastosowanej okleiny."  ],
+    correct: "Szerokość zęba piły tarczowerj wyznaczająca szerokośc rowka wycinanego przez tarczę pilarska w obrabianym materiale.",
     questionId: Math.random(),
   },
   
