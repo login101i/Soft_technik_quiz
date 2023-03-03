@@ -97,7 +97,7 @@ const qBank = [
   {
     question: "Jak już mam osobę do kontaktu od strony Klienta to?",
     answers: ["Weryfikujemy z nią ustalenia z Adamem", "Przechodzisz do działania"],
-    correct: "Weryfikujesz z nią ustalenia z Adamem",
+    correct: "Weryfikujemy z nią ustalenia z Adamem",
     questionId: Math.random(),
   },
   {
@@ -276,6 +276,7 @@ const qBank = [
     correct: "-------",
     questionId: Math.random(),
   },
+  
   {
     question: "Ścianka tylna szuflady ma grubość :",
     answers: [ "16mm", " tak jak front: 18mm",  "22mm" ],
@@ -394,6 +395,88 @@ const qBank = [
     correct: "Szerokość zęba piły tarczowerj wyznaczająca szerokośc rowka wycinanego przez tarczę pilarska w obrabianym materiale.",
     questionId: Math.random(),
   },
+  {
+    question: "Co to jest brzegowanie krawędzi płyty?",
+    answers: [ "Ilość milimetrów, o które zmniejszony będzie docelowy wymiar płyty na szerokość.", "Oklejanie płyty"  ],
+    correct: "Ilość milimetrów, o które zmniejszony będzie docelowy wymiar płyty na szerokość.",
+    questionId: Math.random(),
+  },
+  {
+    question: " Czy wprowadzone wartości brzegowań  uwzględniają szerokości rzazu?",
+    answers: [ "Wprowadzone wartości brzegowań nie uwzględniają szerokości rzazu", "TAk, uwzględniają ją."  ],
+    correct: "Wprowadzone wartości brzegowań nie uwzględniają szerokości rzazu",
+    questionId: Math.random(),
+  },
+  {
+    question: "Co to jest",
+    answers: [ "Wprowadzone wartości brzegowań nie uwzględniają szerokości rzazu", "TAk, uwzględniają ją."  ],
+    correct: "Wprowadzone wartości brzegowań nie uwzględniają szerokości rzazu",
+    questionId: Math.random(),
+  },
+  {
+    question: "Do czego służy klauzula SQL WHERE IN?",
+    src: require("../assets/images/MicrosoftTeams-image_3.png"),
+    answers: [
+    "Do łączenia dwóch lub więcej tabel.",
+    "Do sortowania wyniku zapytania.",
+    "Do filtrowania danych na podstawie określonej listy wartości."
+    ],
+    correct: "Do filtrowania danych na podstawie określonej listy wartości.",
+    questionId: Math.random(),
+    },
+    {
+      question: "Co oznacza akronim SQL?",
+      answers: ["Standard Query Language", "Structured Question Language", "Simple Query Language"],
+      correct: "Standard Query Language",
+      questionId: Math.random(),
+      },
+      
+      {
+      question: "Co oznacza skrót DDL w SQL?",
+      answers: ["Data Definition Language", "Database Design Language", "Data Description Language"],
+      correct: "Data Definition Language",
+      questionId: Math.random(),
+      },
+      
+      {
+      question: "Co to jest klauzula GROUP BY w SQL?",
+      answers: ["Służy do łączenia dwóch lub więcej tabel.", "Służy do sortowania wyniku zapytania.", "Służy do grupowania wyników zapytania na podstawie jednego lub więcej kryteriów."],
+      correct: "Służy do grupowania wyników zapytania na podstawie jednego lub więcej kryteriów.",
+      questionId: Math.random(),
+      },
+      
+      {
+      question: "Co to jest klauzula ORDER BY w SQL?",
+      answers: ["Służy do łączenia dwóch lub więcej tabel.", "Służy do sortowania wyniku zapytania.", "Służy do grupowania wyników zapytania na podstawie jednego lub więcej kryteriów."],
+      correct: "Służy do sortowania wyniku zapytania.",
+      questionId: Math.random(),
+      },
+      
+      {
+      question: "Co to jest zapytanie SQL?",
+      answers: ["Zestaw instrukcji, które służą do tworzenia bazy danych.", "Komenda służąca do uruchamiania aplikacji bazodanowej.", "Zestaw instrukcji służących do pobierania, dodawania, modyfikowania i usuwania danych z bazy danych."],
+      correct: "Zestaw instrukcji służących do pobierania, dodawania, modyfikowania i usuwania danych z bazy danych.",
+      questionId: Math.random(),
+      }
+      ,
+      {
+      question: "Co to jest klauzula WHERE w SQL?",
+      answers: ["Służy do łączenia dwóch lub więcej tabel.", "Służy do sortowania wyniku zapytania.", "Służy do filtrowania wyników zapytania na podstawie określonego warunku."],
+      correct: "Służy do filtrowania wyników zapytania na podstawie określonego warunku.",
+      questionId: Math.random(),
+      },
+      
+      {
+      question: "Co oznacza akronim CRUD w SQL?",
+      answers: ["Create, Read, Update, Delete", "Combine, Repeat, Use, Delete", "Change, Refresh, Update, Drop"],
+      correct: "Create, Read, Update, Delete",
+      questionId: Math.random(),
+      },
+      {
+      question: "Co to jest instrukcja SELECT w SQL?",
+      answers: ["Służy do tworzenia tabel w bazie danych.", "Służy do wyświetlania danych z bazy danych.", "Służy do modyfikowania danych w bazie danych."],
+      correct: "Służy do wyświetlania danych z bazy danych."
+      }
   
   // {
   //   question: "------------",
