@@ -476,7 +476,22 @@ const qBank = [
       question: "Co to jest instrukcja SELECT w SQL?",
       answers: ["Służy do tworzenia tabel w bazie danych.", "Służy do wyświetlania danych z bazy danych.", "Służy do modyfikowania danych w bazie danych."],
       correct: "Służy do wyświetlania danych z bazy danych."
-      }
+      },
+      {
+        question: "Co to jest instrukcja SELECT w SQL?",
+        answers: ["Służy do tworzenia tabel w bazie danych.", "Służy do wyświetlania danych z bazy danych.", "Służy do modyfikowania danych w bazie danych."],
+        correct: "Służy do wyświetlania danych z bazy danych."
+        },
+        {
+          question: "Co to jest SIM",
+          answers: ["Generuje zlecenia w IMOS z pliku XML np z konfiguratora kiedy klient generuje zamówienie w OM.", ],
+          correct: "Generuje zlecenia w IMOS z pliku XML np z konfiguratora kiedy klient generuje zamówienie w OM."
+   },
+   {
+            question: "Gdzie można wygenerować szybko layout na stronę główną",
+            answers: ["Np w www.mobirise.com/pl", "Np w www.google.pl", ],
+            correct: "Np w www.mobirise.com/pl"
+    }
   
   // {
   //   question: "------------",
