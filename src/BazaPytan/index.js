@@ -491,7 +491,75 @@ const qBank = [
             question: "Gdzie można wygenerować szybko layout na stronę główną",
             answers: ["Np w www.mobirise.com/pl", "Np w www.google.pl", ],
             correct: "Np w www.mobirise.com/pl"
-    }
+    },
+    {
+      question: "Jak w FC2 dodać kolejny kafelek na stronie głównej?",
+      answers: ["Poprzez zmianę flagi z 0 na 1 w zmiennych systemowych w OM", "Poprzez zmianę flagi z 0 na 1 w zmiennych systemowych w HEIDI", ],
+      correct: "Poprzez zmianę flagi z 0 na 1 w zmiennych systemowych w OM"
+},
+{
+  question: "Co to jest MPR?",
+  answers: ["Program na maszynę, na centrum Homag'a, inaczej rozszerzenie pliku", "System zarzadzania zamówieniami podobny do CRM", ],
+  correct: "Program na maszynę, na centrum Homag'a, inaczej rozszerzenie pliku"
+},
+{
+  question: "Czym są NPM, CIT, PGMX, TCN ?",
+  answers: ["Rozszerzenia plików na maszyny", "Roszszerzenia plików w Bazie danych", "Roszerzenia plików na maszyny ale nie ma CIT tylko CIX" ],
+  correct: "Roszerzenia plików na maszyny ale nie ma CIT tylko CIX"
+},
+{
+  question: "Czy w OM powinniśmy klikać najpierw button XML Czy CNC ?",
+  answers: ["CNC", "XML" ],
+  correct: "XML"
+},
+{
+  question: "Do jakiej maszyny przypisane jest rozszerzenie NPR ?",
+  answers: ["Homag", "Biesse" ],
+  correct: "Homag"
+},
+{
+  question: "Do jakiej maszyny przypisane jest rozszerzenie CIX ?",
+  answers: ["Homag", "Biesse", "Biesse bo druga litera to 'i'" ],
+  correct: "Biesse bo druga litera to 'i'"
+},
+{
+  question: "Do jakiej maszyny przypisane jest rozszerzenie PGMX ?",
+  answers: ["SCMMM", "Biesse", "SCM bo trzecia litera to M a S jest blisko P w alfabecie" ],
+  correct: "SCM bo trzecia litera to M a S jest blisko P w alfabecie"
+},
+{
+  question: "Co to jest TCN",
+  answers: ["To jest roszszerzenie na maszynę Felder, To Ci No Felder", "Do maszyny Homag, Homag oprócz NPR ma również TCN" ],
+  correct: "To jest roszszerzenie na maszynę Felder, To Ci No Felder"
+},
+
+{
+  question: "W OM co znaczy oznaczenie K w kolumnie T?",
+  answers: ["Zamówienie z Konfiguratora", "Zamówienie z Formatek" ],
+  correct: "Zamówienie z Konfiguratora",
+},
+{
+  question: "W OM co znaczy oznaczenie P W kolumnie T?",
+  answers: ["Zamówienie z Konfiguratora", "Zamówienie z Formatek" ],
+  correct: "Zamówienie z Formatek",
+},
+{
+  question: "Typ zasobu  0 to ?",
+  answers: ["Płyty", "Blaty na pewno mają 0 nie 4" ],
+  correct: "Płyty",
+},
+
+{
+  question: "Czym charakteryzuje się AVENTOS HS",
+  src: require("../assets/images/MicrosoftTeams-image_6.png"),
+  answers: [
+  "To front uchylno-nachodzacy jednoczęściowy zachodzacy na korpus",
+  "Do frontów nad korpusem, który unosi się równolegle do szafki (HL)",
+  "Front składany, dwuczęściowy  (HF uck is that ?)"
+  ],
+  correct: "To front uchylno-nachodzacy jednoczęściowy zachodzacy na korpus",
+  questionId: Math.random(),
+  },
   
   // {
   //   question: "------------",
