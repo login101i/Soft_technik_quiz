@@ -304,8 +304,8 @@ const qBank = [
   
   {
     question: "czym charakteryzuje się szuflada LegraBox?",
-    answers: [ "Legrabox to prostokątny cienki bok zaledwie 12 mm, niskie prowadnice MOVENTO. LEGRABOX może być wyposażony w system TIP-ON BLUMOTION pozwalające na otwieranie szuflad bez uchwytów i ich ciche domykanie. "  ],
-    correct: "Legrabox to prostokątny cienki bok zaledwie 12 mm, niskie prowadnice MOVENTO. LEGRABOX może być wyposażony w system TIP-ON BLUMOTION pozwalające na otwieranie szuflad bez uchwytów i ich ciche domykanie. ",
+    answers: [ "Legrabox to prostokątny cienki bok zaledwie 12 mm. LEGRABOX może być wyposażony w system TIP-ON BLUMOTION pozwalające na otwieranie szuflad bez uchwytów i ich ciche domykanie. "  ],
+    correct: "Legrabox to prostokątny cienki bok zaledwie 12 mm. LEGRABOX może być wyposażony w system TIP-ON BLUMOTION pozwalające na otwieranie szuflad bez uchwytów i ich ciche domykanie. ",
     questionId: Math.random(),
   },
   {
@@ -415,7 +415,6 @@ const qBank = [
   },
   {
     question: "Do czego służy klauzula SQL WHERE IN?",
-    src: require("../assets/images/MicrosoftTeams-image_3.png"),
     answers: [
     "Do łączenia dwóch lub więcej tabel.",
     "Do sortowania wyniku zapytania.",
@@ -559,6 +558,26 @@ const qBank = [
   ],
   correct: "To front uchylno-nachodzacy jednoczęściowy zachodzacy na korpus",
   questionId: Math.random(),
+  },
+  {
+    question: "Który z symboli oznacza otwieranie na TIP-ON",
+    answers: ["10", "20", "30" ],
+    correct: "10",
+  },
+  {
+    question: "Filtr oznaczający cyfrę  1,2.3 oznaczają?",
+    answers: ["Brunatnoszary, Jedwabiście Biały, Szary", "Jedwabiście Biały, Brunatnoszary, Szary"],
+    correct: "Brunatnoszary, Jedwabiście Biały, Szary",
+  },
+  {
+    question: "Nazwa 578.5501B oznacza ? ",
+    answers: ["Prowadnicę szuflady otwieraną uchwytem", "Prowadnicę szuflady otwieraną Tip-onem"],
+    correct: "Prowadnicę szuflady otwieraną uchwytem",
+  },
+  {
+    question: "Czym rózni się łącznik mimośrodowy od kołkowego? ",
+    answers: [],
+    correct: "",
   },
   
   // {
