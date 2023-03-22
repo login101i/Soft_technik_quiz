@@ -408,7 +408,7 @@ const qBank = [
     questionId: Math.random(),
   },
   {
-    question: "Co to jest",
+    question: "Czy wartości brzegowań uwzglęniają szerokość rzazu.",
     answers: [ "Wprowadzone wartości brzegowań nie uwzględniają szerokości rzazu", "TAk, uwzględniają ją."  ],
     correct: "Wprowadzone wartości brzegowań nie uwzględniają szerokości rzazu",
     questionId: Math.random(),
@@ -502,7 +502,7 @@ const qBank = [
   correct: "Program na maszynę, na centrum Homag'a, inaczej rozszerzenie pliku"
 },
 {
-  question: "Czym są NPM, CIT, PGMX, TCN ?",
+  question: "Czym są MPM, CIT, PGMX, TCN ?",
   answers: ["Rozszerzenia plików na maszyny", "Roszszerzenia plików w Bazie danych", "Roszerzenia plików na maszyny ale nie ma CIT tylko CIX" ],
   correct: "Roszerzenia plików na maszyny ale nie ma CIT tylko CIX"
 },
@@ -550,7 +550,6 @@ const qBank = [
 
 {
   question: "Czym charakteryzuje się AVENTOS HS",
-  src: require("../assets/images/MicrosoftTeams-image_6.png"),
   answers: [
   "To front uchylno-nachodzacy jednoczęściowy zachodzacy na korpus",
   "Do frontów nad korpusem, który unosi się równolegle do szafki (HL)",
@@ -575,9 +574,53 @@ const qBank = [
     correct: "Prowadnicę szuflady otwieraną uchwytem",
   },
   {
+    question: "Co oznacza symbol B w nazwie prowadnicy 578.4001B? ",
+    answers: ["Że jest wraz z systemem Bluemotion","Że jest wraz z systemem Tip-On"],
+    correct: "Że jest wraz z systemem Bluemotion",
+  },
+  {
+    question: "Okleiniarka nie oklei formatki o wymiarze?",
+    answers: ["39mm", "70mm", "60mm"],
+    correct: "39mm",
+  },
+  {
     question: "Czym rózni się łącznik mimośrodowy od kołkowego? ",
     answers: [],
     correct: "",
+  },
+  {
+    question: "Co znajduje się w bazie podstawowej potrzebnej w drożeniu? ",
+    answers: ["5 podstawowych zasobów, ustawienia maszyn, podstawowe raporty", "Baza podstawowa z Soft-technik"],
+    correct: "5 podstawowych zasobów, ustawienia maszyn, podstawowe raporty",
+  },
+  {
+    question: "Co oznacza symbol ZRG.437R.SEIW?? ",
+    answers: ["Jest to  TANDEMBOX antaro/reling ZRG.437 l=500 biały", "Jest to bok Baiły Lewy"],
+    src: require("../assets/images/MicrosoftTeams-image_8.png"),
+
+    correct: "Jest to  TANDEMBOX antaro/reling ZRG.437 l=500 biały",
+  },
+  {
+    question: "Przy analizie produkcji warto zapytać np o: ",
+    answers: ["Parametry piły i inne pierdy", "Jakie w firmie X mają miesięczne zapotrzebowanie na cukier do kawy."],
+    correct: "Parametry piły i inne pierdy",
+  },
+  {
+    question: "Czego tyczy poniższe zdjęcie? ",
+    answers: ["Zakładki Admin i Integracji danych Klienta z Imosa potrzebnych do integracji", "To jest randomowy jpeg z długowłosa blondynką"],
+    src: require("../assets/images/MicrosoftTeams-image_9.png"),
+
+    correct: "Zakładki Admin i Integracji danych Klienta z Imosa potrzebnych do integracji",
+  },
+  {
+    question: "Symbol '22K2900' to ?",
+    answers: ["22K2900 zestaw siłow.o mocy 3200-9000 Siłownik do Aventosa HK", "JProwadnica szualfady BLUM."],
+    correct: "22K2900 zestaw siłow.o mocy 3200-9000 Siłownik do Aventosa HK",
+  },
+  {
+    question: "Gdzie szukać danych do logowania u Kilenta do FTP ?",
+    answers: ["W CRM w zakładce pliki", "W K#D w zakładce ustawienia"],
+    correct: "W CRM w zakładce pliki",
   },
   
   // {
