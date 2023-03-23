@@ -881,7 +881,262 @@ const qBank = [
 		question: 'Czym rózni się łącznik mimośrodowy od kołkowego? ',
 		answers: [],
 		correct: ''
-	}
+	},
+	{
+    question: "Co oznacza symbol B w nazwie prowadnicy 578.4001B? ",
+    answers: ["Że jest wraz z systemem Bluemotion","Że jest wraz z systemem Tip-On"],
+    correct: "Że jest wraz z systemem Bluemotion",
+  },
+  {
+    question: "Okleiniarka nie oklei formatki o wymiarze?",
+    answers: ["39mm", "70mm", "60mm"],
+    correct: "39mm",
+  },
+  {
+    question: "Czym rózni się łącznik mimośrodowy od kołkowego? ",
+    answers: [],
+    correct: "",
+  },
+  {
+    question: "Co znajduje się w bazie podstawowej potrzebnej w drożeniu? ",
+    answers: ["5 podstawowych zasobów, ustawienia maszyn, podstawowe raporty", "Baza podstawowa z Soft-technik"],
+    correct: "5 podstawowych zasobów, ustawienia maszyn, podstawowe raporty",
+  },
+  {
+    question: "Co oznacza symbol ZRG.437R.SEIW?? ",
+    answers: ["Jest to  TANDEMBOX antaro/reling ZRG.437 l=500 biały", "Jest to bok Baiły Lewy"],
+    src: require("../assets/images/MicrosoftTeams-image_8.png"),
+
+    correct: "Jest to  TANDEMBOX antaro/reling ZRG.437 l=500 biały",
+  },
+  {
+    question: "Przy analizie produkcji warto zapytać np o: ",
+    answers: ["Parametry piły i inne pierdy", "Jakie w firmie X mają miesięczne zapotrzebowanie na cukier do kawy."],
+    correct: "Parametry piły i inne pierdy",
+  },
+  {
+    question: "Czego tyczy poniższe zdjęcie? ",
+    answers: ["Zakładki Admin i Integracji danych Klienta z Imosa potrzebnych do integracji", "To jest randomowy jpeg z długowłosa blondynką"],
+    src: require("../assets/images/MicrosoftTeams-image_9.png"),
+
+    correct: "Zakładki Admin i Integracji danych Klienta z Imosa potrzebnych do integracji",
+  },
+  {
+    question: "Symbol '22K2900' to ?",
+    answers: ["22K2900 zestaw siłow.o mocy 3200-9000 Siłownik do Aventosa HK", "JProwadnica szualfady BLUM."],
+    correct: "22K2900 zestaw siłow.o mocy 3200-9000 Siłownik do Aventosa HK",
+  },
+  {
+    question: "Gdzie szukać danych do logowania u Kilenta do FTP ?",
+    answers: ["W CRM w zakładce pliki", "W K#D w zakładce ustawienia"],
+    correct: "W CRM w zakładce pliki",
+  },
+  {
+		question: 'Blumotion to: ',
+		answers: ['Delikatne i ciche zamykanie frontu.', 'Elektryczne wspomaganie otwierania.'],
+		correct: 'Delikatne i ciche zamykanie frontu.',
+		questionId: Math.random()
+	},
+
+	{
+		question: 'Większe obciążenie przyjmuje szuflada:',
+		answers: ['Blum LBX, odpowiednio 40/70kg', 'Blum TBX, odpowiednio 40/70kg', 'Blum TBX, odpowiednio 30/65kg'],
+		correct: 'Blum LBX, odpowiednio 40/70kg',
+		questionId: Math.random()
+	},
+	{
+		question: 'Czym jest Order Manager?',
+		answers: [
+			'Stanowi platformę zarządzającą, do której podłączone są kolejne moduły, dzięki czemu pozwala na wgląd, zarządzanie i realizację zleceń w czasie rzeczywistym.',
+			'Stanowi platformę zarządzającą optymalizacją rozkroju płyt, wykorzystując do tego najnowocześniejsze algorytmy'
+		],
+		correct:
+			'Stanowi platformę zarządzającą, do której podłączone są kolejne moduły, dzięki czemu pozwala na wgląd, zarządzanie i realizację zleceń w czasie rzeczywistym.',
+		questionId: Math.random()
+	},
+	{
+		question: 'Co to jest szerokość rzazu?',
+		answers: [
+			'Szerokość zęba piły tarczowerj wyznaczająca szerokośc rowka wycinanego przez tarczę pilarska w obrabianym materiale.',
+			'Szerokość zastosowanej okleiny.'
+		],
+		correct: 'Szerokość zęba piły tarczowej wyznaczająca szerokośc rowka wycinanego przez tarczę pilarska w obrabianym materiale.',
+		questionId: Math.random()
+	},
+	{
+		question: 'Co to jest brzegowanie krawędzi płyty?',
+		answers: ['Ilość milimetrów, o które zmniejszony będzie docelowy wymiar płyty na szerokość.', 'Oklejanie płyty'],
+		correct: 'Ilość milimetrów, o które zmniejszony będzie docelowy wymiar płyty na szerokość.',
+		questionId: Math.random()
+	},
+	{
+		question: 'Czy wprowadzone wartości brzegowań uwzględniają szerokości rzazu?',
+		answers: ['Wprowadzone wartości brzegowań nie uwzględniają szerokości rzazu', 'TAk, uwzględniają ją.'],
+		correct: 'Wprowadzone wartości brzegowań nie uwzględniają szerokości rzazu',
+		questionId: Math.random()
+	},
+
+	{
+		question: 'Do czego służy klauzula SQL WHERE IN?',
+		answers: [
+			'Do łączenia dwóch lub więcej tabel.',
+			'Do sortowania wyniku zapytania.',
+			'Do filtrowania danych na podstawie określonej listy wartości.'
+		],
+		correct: 'Do filtrowania danych na podstawie określonej listy wartości.',
+		questionId: Math.random()
+	},
+	{
+		question: 'Co oznacza akronim SQL?',
+		answers: ['Standard Query Language', 'Structured Question Language', 'Simple Query Language'],
+		correct: 'Standard Query Language',
+		questionId: Math.random()
+	},
+
+	{
+		question: 'Co oznacza skrót DDL w SQL?',
+		answers: ['Data Definition Language', 'Database Design Language', 'Data Description Language'],
+		correct: 'Data Definition Language',
+		questionId: Math.random()
+	},
+
+	{
+		question: 'Co to jest klauzula GROUP BY w SQL?',
+		answers: [
+			'Służy do łączenia dwóch lub więcej tabel.',
+			'Służy do sortowania wyniku zapytania.',
+			'Służy do grupowania wyników zapytania na podstawie jednego lub więcej kryteriów.'
+		],
+		correct: 'Służy do grupowania wyników zapytania na podstawie jednego lub więcej kryteriów.',
+		questionId: Math.random()
+	},
+
+	{
+		question: 'Co to jest klauzula ORDER BY w SQL?',
+		answers: [
+			'Służy do łączenia dwóch lub więcej tabel.',
+			'Służy do sortowania wyniku zapytania.',
+			'Służy do grupowania wyników zapytania na podstawie jednego lub więcej kryteriów.'
+		],
+		correct: 'Służy do sortowania wyniku zapytania.',
+		questionId: Math.random()
+	},
+
+	{
+		question: 'Co to jest zapytanie SQL?',
+		answers: [
+			'Zestaw instrukcji, które służą do tworzenia bazy danych.',
+			'Komenda służąca do uruchamiania aplikacji bazodanowej.',
+			'Zestaw instrukcji służących do pobierania, dodawania, modyfikowania i usuwania danych z bazy danych.'
+		],
+		correct: 'Zestaw instrukcji służących do pobierania, dodawania, modyfikowania i usuwania danych z bazy danych.',
+		questionId: Math.random()
+	},
+	{
+		question: 'Co to jest klauzula WHERE w SQL?',
+		answers: [
+			'Służy do łączenia dwóch lub więcej tabel.',
+			'Służy do sortowania wyniku zapytania.',
+			'Służy do filtrowania wyników zapytania na podstawie określonego warunku.'
+		],
+		correct: 'Służy do filtrowania wyników zapytania na podstawie określonego warunku.',
+		questionId: Math.random()
+	},
+
+	{
+		question: 'Co oznacza akronim CRUD w SQL?',
+		answers: ['Create, Read, Update, Delete', 'Combine, Repeat, Use, Delete', 'Change, Refresh, Update, Drop'],
+		correct: 'Create, Read, Update, Delete',
+		questionId: Math.random()
+	},
+	{
+		question: 'Co to jest instrukcja SELECT w SQL?',
+		answers: [
+			'Służy do tworzenia tabel w bazie danych.',
+			'Służy do wyświetlania danych z bazy danych.',
+			'Służy do modyfikowania danych w bazie danych.'
+		],
+		correct: 'Służy do wyświetlania danych z bazy danych.'
+	},
+
+	{
+		question: 'Co to jest SIM',
+		answers: ['Generuje zlecenia w IMOS z pliku XML np. z konfiguratora kiedy klient generuje zamówienie w OM.'],
+		correct: 'Generuje zlecenia w IMOS z pliku XML np. z konfiguratora kiedy klient generuje zamówienie w OM.'
+	},
+	{
+		question: 'Gdzie można wygenerować szybko layout na stronę główną',
+		answers: ['Np w www.mobirise.com/pl', 'Np w www.google.pl'],
+		correct: 'Np w www.mobirise.com/pl'
+	},
+	{
+		question: 'Jak w FC2 dodać kolejny kafelek na stronie głównej?',
+		answers: [
+			'Poprzez zmianę flagi z 0 na 1 w zmiennych systemowych w OM',
+			'Poprzez zmianę flagi z 0 na 1 w zmiennych systemowych w HEIDI'
+		],
+		correct: 'Poprzez zmianę flagi z 0 na 1 w zmiennych systemowych w OM'
+	},
+	{
+		question: 'Co to jest NPR?',
+		answers: ["Program na maszynę, na centrum Homag'a, inaczej rozszerzenie pliku", 'System zarzadzania zamówieniami podobny do CRM'],
+		correct: "Program na maszynę, na centrum Homag'a, inaczej rozszerzenie pliku"
+	},
+	{
+		question: 'Czym są NPM, CIT, PGMX, TCN ?',
+		answers: [
+			'Rozszerzenia plików na maszyny',
+			'Roszszerzenia plików w Bazie danych',
+			'Roszerzenia plików na maszyny ale nie ma CIT tylko CIX'
+		],
+		correct: 'Roszerzenia plików na maszyny ale nie ma CIT tylko CIX'
+	},
+	{
+		question: 'Czy w OM powinniśmy klikać najpierw button XML Czy CNC ?',
+		answers: ['CNC', 'XML'],
+		correct: 'XML'
+	},
+	{
+		question: 'Do jakiej maszyny przypisane jest rozszerzenie NPR ?',
+		answers: ['Homag', 'Biesse'],
+		correct: 'Homag'
+	},
+  {
+    question: "Jadną z zasad w K3D jest?",
+    answers: ["Zasada jest taka, że zasoby, które są filtrami zakładamy w OM z typem materiału 10 i przypisujemy do grupy Filtry", "Zasada jest taka, że zasoby, które są filtrami zakładamy w OM z typem materiału 1 i przypisujemy do grupy Filtry"],
+    correct: "Zasada jest taka, że zasoby, które są filtrami zakładamy w OM z typem materiału 10 i przypisujemy do grupy Filtry",
+  },
+  {
+    question: "Co oznacza nazwa w GroupId",
+    answers: ["Jest to identyfikator folderu, do którego przypisany jest obiekt" ,  "Jest to inaczej zmienna tłumaczeniowa"],
+    correct: "Jest to identyfikator folderu, do którego przypisany jest obiekt",
+  },
+  {
+    question: "Tworzac nowy obiekt w pole nazwa i opis nalezy wpisać:",
+    answers: ["Zmienną tłumaczeniową" ,  "Nazwę bez spacji"],
+    correct: "Zmienną tłumaczeniową",
+  },
+  {
+    question: "Alias w konfiguratorze K3D to:",
+    answers: ["W to mijesce wpisujemy zmienna z imosa odpowiadająca danemu parametrowi." ,  "a wpisuj co tam chcesz. ."],
+    correct: "W to mijesce wpisujemy zmienna z imosa odpowiadająca danemu parametrowi",
+  },
+  {
+    question: "Przedrostek __Imos_ w zmiennej mówi nam o tym, że:",
+    answers: ["Zmienne z tym przedrostkiem są zmiennymi, które wykorzystywane są do integracji z imosem." ,  "To taki przydługi przedrostek bo autor tak chciał."],
+    correct: "Zmienne z tym przedrostkiem są zmiennymi, które wykorzystywane są do integracji z imosem.",
+  },
+  {
+    question: "Co oznacza zapis __Imos_S_B_GR_LS1=CorpusGrainSide ?",
+    answers: ["W imosie pod zmienną S_B_GR_LS1 wstawiona zostanie wartość jaka wynika ze zmiennej CorpusGrainSides w K3D" ,  "W imosie pod zmienną S_B_GR_LS1 wstawiona zostanie wartość jaka wynika ze zmiennej CorpusGrainSides"],
+    correct: "W imosie pod zmienną S_B_GR_LS1 wstawiona zostanie wartość jaka wynika ze zmiennej CorpusGrainSides w K3D",
+  },
+
+  {
+    question: "Pod znakiem E w K3D kryje się :",
+    answers: ["Lista parametrów - uzupełniane są automatycznie, nie możemy ich edytować.", " Zmienne systemowe – uzupełniane są automatycznie – są to zmienne zaprogramowane przez Agmasoft, na nie nie mamy wpływu.", "Zmienne ukryte – w tym miejscu przypisujemy do danego obiektu zmienne ukryte, tzn. są to wartości na które użytkownik nie ma wpływu."],
+    correct: "Lista parametrów - uzupełniane są automatycznie, nie możemy ich edytować.",
+  }
 
 	// {
 	//   question: "------------",
@@ -889,7 +1144,6 @@ const qBank = [
 	//   correct: "------------",
 	//   questionId: Math.random(),
 	// },
->>>>>>> 5622aa38cf3fcff342a5dfd4c7215288a072a543
 ];
 // jak wygląda uchwyt do rury fi 160 przegugowy,
 // https://www.europanels.pl/wp-content/uploads/Dwuteowniki-rownolegloscienne.jpg
