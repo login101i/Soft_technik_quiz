@@ -391,7 +391,6 @@ const qBank = [
 		questionId: Math.random()
 	},
 
-<<<<<<< HEAD
    {
     question: "Większe obciążenie przyjmuje szuflada:",
     answers: [ "Blum LBX, odpowiednio 40/70kg", "Blum TBX, odpowiednio 40/70kg", "Blum TBX, odpowiednio 30/65kg"  ],
@@ -639,14 +638,7 @@ const qBank = [
     correct: "W CRM w zakładce pliki",
   },
   
-  // {
-  //   question: "------------",
-  //   answers: [   ],
-  //   correct: "------------",
-  //   questionId: Math.random(),
-  // },
-  
-=======
+
 	{
 		question: 'Blumotion to: ',
 		answers: ['Delikatne i ciche zamykanie frontu.', 'Elektryczne wspomaganie otwierania.'],
