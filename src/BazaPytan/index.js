@@ -546,15 +546,13 @@ const qBank = [
   answers: ["To jest roszszerzenie na maszynę Felder, To Ci No Felder", "Do maszyny Homag, Homag oprócz NPR ma również TCN" ],
   correct: "To jest roszszerzenie na maszynę Felder, To Ci No Felder"
 },
-=======
+
 	{
 		question: 'Wysokość szuflady N, M, K oznaczają szuflady: ',
 		answers: ['standardowe', 'z wysokim frontem', 'z wysokim frontem i relingiem'],
 		correct: 'standardowe',
 		questionId: Math.random()
 	},
->>>>>>> 5622aa38cf3fcff342a5dfd4c7215288a072a543
-
 	{
 		question: 'System servo drive przeznaczony jest do : ',
 		answers: [
@@ -565,7 +563,7 @@ const qBank = [
 		questionId: Math.random()
 	},
 
-<<<<<<< HEAD
+
 {
   question: "Czym charakteryzuje się AVENTOS HS",
   answers: [
