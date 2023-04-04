@@ -1126,6 +1126,11 @@ const qBank = [
     question: "Pod znakiem E w K3D kryje się :",
     answers: ["Lista parametrów - uzupełniane są automatycznie, nie możemy ich edytować.", " Zmienne systemowe – uzupełniane są automatycznie – są to zmienne zaprogramowane przez Agmasoft, na nie nie mamy wpływu.", "Zmienne ukryte – w tym miejscu przypisujemy do danego obiektu zmienne ukryte, tzn. są to wartości na które użytkownik nie ma wpływu."],
     correct: "Lista parametrów - uzupełniane są automatycznie, nie możemy ich edytować.",
+  },
+	 {
+    question: "Zeby internetowe zlecenie zoptymalizować w OM trzeba zmienić jego typ na :",
+    answers: ["Prawy click na zlecenie i przekształć internetowe na wenwętrzne",  "Działa to bez problemu, nic nie musimy robić"],
+    correct: "Prawy click na zlecenie i przekształć internetowe na wenwętrzne",
   }
 
 	// {
