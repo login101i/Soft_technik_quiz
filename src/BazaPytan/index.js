@@ -2,7 +2,7 @@ export const shuffledQuestions = 20;
 
 // Decide how many question you want to see in a game.
 export const numberOfQuestion = 20;
-const qBank = [
+const qBank = [ 
 	{
 		question: 'Przy wdrożeniu o co mam zapytać Adama?',
 		answers: ['Jakie moduły zostały sprzedane', 'Czy kupić mleko do kuchni'],
@@ -1131,6 +1131,11 @@ const qBank = [
     question: "Zeby internetowe zlecenie zoptymalizować w OM trzeba zmienić jego typ na :",
     answers: ["Prawy click na zlecenie i przekształć internetowe na wenwętrzne",  "Działa to bez problemu, nic nie musimy robić"],
     correct: "Prawy click na zlecenie i przekształć internetowe na wenwętrzne",
+  },
+ {
+    question: "Maszyna Schelling ma maksymalną liczbę znaków na etykiecie w liczbie:",
+    answers: ["20",  "40", "30", "50"],
+    correct: "20",
   }
 
 	// {
