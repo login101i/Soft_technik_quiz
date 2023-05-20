@@ -83,6 +83,7 @@ const QuestionBox = ({
               const liczbaNiekatywnychBtn = tablicaWszystkichButtonow.filter(
                 (obj) => obj.disabled
               ).length;
+              // console.log(liczbaNiekatywnychBtn, iloscButtonow);
 
               if (liczbaNiekatywnychBtn === iloscButtonow) {
                 setTimeout(() => {

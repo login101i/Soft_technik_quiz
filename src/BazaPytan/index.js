@@ -146,7 +146,7 @@ const qBank = [
     answers: [
       "TAK",
       "NIE",
-      "Nie, każdy folder ma swój unikalny paramert.",
+      "Nie, każdy folder ma swój unikalny parametr.",
       "Nie, każdy folder ma swoje unikalne id",
     ],
     correct: "TAK",
@@ -190,7 +190,7 @@ const qBank = [
       "Aby wszystkie materialy miały zunifikowany sposób wprowadzonych danych, żeby można było uniwersalne zapytanie zrobić.",
     ],
     correct:
-      "Aby wszystkie materialy miały zunifikowany sposób wprowadzonych danych, żeby można było robićniwersalne zapytania.",
+      "Aby wszystkie materialy miały zunifikowany sposób wprowadzonych danych, żeby można było uniwersalne zapytanie zrobić.",
     questionId: Math.random(),
   },
 
@@ -233,10 +233,10 @@ const qBank = [
     question:
       "Należy wprowadzanie materiałów dać później i testować wdrożenie na tych dwóch założonych testowych materiałach. Why?",
     answers: [
-      "Nie musimy czekać aż Klient dorobią te materiały.",
+      "Nie musimy czekać aż Klient dorobi te materiały.",
       "Nie, to podejście nie jest wykorzystywane.",
     ],
-    correct: "Nie musimy czekać aż Klient dorobi materiały.",
+    correct: "Nie musimy czekać aż Klient dorobi te materiały.",
     questionId: Math.random(),
   },
 
@@ -327,7 +327,7 @@ const qBank = [
   },
   {
     question: "Co jest niepoprawne w tym zapisie python?",
-    // src: require('../assets/images/MicrosoftTeams-image_1.png'),
+    src: require("../images/MicrosoftTeams-image_1.png"),
     answers: [
       "Należy zamienić == na ===",
       "należy zamienić nawiasy [ ] na { }",
@@ -356,7 +356,7 @@ const qBank = [
   },
   {
     question: "Trzeci wers odnosi się do :",
-    // src: require("./assets/images/MicrosoftTeams-image_2.png"),
+    src: require("../images/MicrosoftTeams-image_2.png"),
     answers: [
       "Szafki z dwoma głęboki szufladami i jedna niską",
       "Szafki z dwoma niskimi szufladami i jedna głęboką",
@@ -366,7 +366,7 @@ const qBank = [
   },
   {
     question: "Co oznacza symbol DRBS:",
-    // src: require("../assets/images/MicrosoftTeams-image_3.png"),
+    src: require("../images/MicrosoftTeams-image_3.png"),
     answers: ["-------", "-------"],
     correct: "-------",
     questionId: Math.random(),
@@ -693,7 +693,7 @@ const qBank = [
   },
   {
     question: "Do jakiej maszyny przypisane jest rozszerzenie CIX ?",
-    answers: ["Homag", "Biesse", "Biesse bo druga litera to 'i'"],
+    answers: ["Homag", "Biesse bo druga litera to 'i'"],
     correct: "Biesse bo druga litera to 'i'",
   },
   {
@@ -781,8 +781,8 @@ const qBank = [
   },
   {
     question: "Czym rózni się łącznik mimośrodowy od kołkowego? ",
-    answers: [],
-    correct: "",
+    answers: ["Łoo Panie, trudne rzeczy pytasz", "Tak, to proste"],
+    correct: "Łoo Panie, trudne rzeczy pytasz",
   },
   {
     question: "Co znajduje się w bazie podstawowej potrzebnej w drożeniu? ",
@@ -796,9 +796,9 @@ const qBank = [
     question: "Co oznacza symbol ZRG.437R.SEIW?? ",
     answers: [
       "Jest to  TANDEMBOX antaro/reling ZRG.437 l=500 biały",
-      "Jest to bok Baiły Lewy",
+      "Jest to bok biały lewy",
     ],
-    // src: require("../assets/images/MicrosoftTeams-image_8.png"),
+    src: require("../images/MicrosoftTeams-image_8.png"),
 
     correct: "Jest to  TANDEMBOX antaro/reling ZRG.437 l=500 biały",
   },
@@ -816,7 +816,7 @@ const qBank = [
       "Zakładki Admin i Integracji danych Klienta z Imosa potrzebnych do integracji",
       "To jest randomowy jpeg z długowłosa blondynką",
     ],
-    // src: require("../assets/images/MicrosoftTeams-image_9.png"),
+    src: require("../images/MicrosoftTeams-image_9.png"),
 
     correct:
       "Zakładki Admin i Integracji danych Klienta z Imosa potrzebnych do integracji",
@@ -825,7 +825,7 @@ const qBank = [
     question: "Symbol '22K2900' to ?",
     answers: [
       "22K2900 zestaw siłow.o mocy 3200-9000 Siłownik do Aventosa HK",
-      "JProwadnica szualfady BLUM.",
+      "Prowadnica szuflady BLUM.",
     ],
     correct: "22K2900 zestaw siłow.o mocy 3200-9000 Siłownik do Aventosa HK",
   },
@@ -865,16 +865,7 @@ const qBank = [
       "Stanowi platformę zarządzającą, do której podłączone są kolejne moduły, dzięki czemu pozwala na wgląd, zarządzanie i realizację zleceń w czasie rzeczywistym.",
     questionId: Math.random(),
   },
-  {
-    question: "Co to jest szerokość rzazu?",
-    answers: [
-      "Szerokość zęba piły tarczowerj wyznaczająca szerokośc rowka wycinanego przez tarczę pilarska w obrabianym materiale.",
-      "Szerokość zastosowanej okleiny.",
-    ],
-    correct:
-      "Szerokość zęba piły tarczowej wyznaczająca szerokośc rowka wycinanego przez tarczę pilarska w obrabianym materiale.",
-    questionId: Math.random(),
-  },
+
   {
     question: "Co to jest brzegowanie krawędzi płyty?",
     answers: [
@@ -1045,7 +1036,7 @@ const qBank = [
   },
   {
     question: "Do jakiej maszyny przypisane jest rozszerzenie CIX ?",
-    answers: ["Homag", "Biesse", "Biesse bo druga litera to 'i'"],
+    answers: ["Homag", "Biesse bo druga litera to 'i'"],
     correct: "Biesse bo druga litera to 'i'",
   },
   {
@@ -1084,7 +1075,7 @@ const qBank = [
 
   {
     question: "Czym charakteryzuje się AVENTOS HS",
-    // src: require("../assets/images/MicrosoftTeams-image_6.png"),
+    src: require("../images/MicrosoftTeams-image_6.png"),
     answers: [
       "To front uchylno-nachodzacy jednoczęściowy zachodzacy na korpus",
       "Do frontów nad korpusem, który unosi się równolegle do szafki (HL)",
@@ -1114,11 +1105,7 @@ const qBank = [
     ],
     correct: "Prowadnicę szuflady otwieraną uchwytem",
   },
-  {
-    question: "Czym rózni się łącznik mimośrodowy od kołkowego? ",
-    answers: [],
-    correct: "",
-  },
+
   {
     question: "Co oznacza symbol B w nazwie prowadnicy 578.4001B? ",
     answers: [
@@ -1132,11 +1119,7 @@ const qBank = [
     answers: ["39mm", "70mm", "60mm"],
     correct: "39mm",
   },
-  {
-    question: "Czym rózni się łącznik mimośrodowy od kołkowego? ",
-    answers: [],
-    correct: "",
-  },
+
   {
     question: "Co znajduje się w bazie podstawowej potrzebnej w drożeniu? ",
     answers: [
@@ -1149,9 +1132,9 @@ const qBank = [
     question: "Co oznacza symbol ZRG.437R.SEIW?? ",
     answers: [
       "Jest to  TANDEMBOX antaro/reling ZRG.437 l=500 biały",
-      "Jest to bok Baiły Lewy",
+      "Jest to bok biały lewy",
     ],
-    // src: require("../assets/images/MicrosoftTeams-image_8.png"),
+    src: require("../images/MicrosoftTeams-image_8.png"),
 
     correct: "Jest to  TANDEMBOX antaro/reling ZRG.437 l=500 biały",
   },
@@ -1169,7 +1152,7 @@ const qBank = [
       "Zakładki Admin i Integracji danych Klienta z Imosa potrzebnych do integracji",
       "To jest randomowy jpeg z długowłosa blondynką",
     ],
-    // src: require("../assets/images/MicrosoftTeams-image_9.png"),
+    src: require("../images/MicrosoftTeams-image_9.png"),
 
     correct:
       "Zakładki Admin i Integracji danych Klienta z Imosa potrzebnych do integracji",
@@ -1224,7 +1207,7 @@ const qBank = [
       "Szerokość zastosowanej okleiny.",
     ],
     correct:
-      "Szerokość zęba piły tarczowej wyznaczająca szerokośc rowka wycinanego przez tarczę pilarska w obrabianym materiale.",
+      "Szerokość zęba piły tarczowerj wyznaczająca szerokośc rowka wycinanego przez tarczę pilarska w obrabianym materiale.",
     questionId: Math.random(),
   },
   {
@@ -1420,11 +1403,11 @@ const qBank = [
   {
     question: "Alias w konfiguratorze K3D to:",
     answers: [
-      "W to mijesce wpisujemy zmienna z imosa odpowiadająca danemu parametrowi.",
+      "W to miejsce wpisujemy zmienna z imosa odpowiadająca danemu parametrowi.",
       "a wpisuj co tam chcesz. .",
     ],
     correct:
-      "W to mijesce wpisujemy zmienna z imosa odpowiadająca danemu parametrowi",
+      "W to miejsce wpisujemy zmienna z imosa odpowiadająca danemu parametrowi.",
   },
   {
     question: "Przedrostek __Imos_ w zmiennej mówi nam o tym, że:",
@@ -1459,10 +1442,10 @@ const qBank = [
     question:
       "Zeby internetowe zlecenie zoptymalizować w OM trzeba zmienić jego typ na :",
     answers: [
-      "Prawy click na zlecenie i przekształć internetowe na wenwętrzne",
+      "Prawy click na zlecenie i przekształć internetowe na wewnętrzne",
       "Działa to bez problemu, nic nie musimy robić",
     ],
-    correct: "Prawy click na zlecenie i przekształć internetowe na wenwętrzne",
+    correct: "Prawy click na zlecenie i przekształć internetowe na wewnętrzne",
   },
   {
     question:
@@ -1504,7 +1487,8 @@ const qBank = [
       "Przekształcić zlecenie na wewnętrzny, zmienić status na edycja i mamy możliwość zmiany wymiarów",
       "Zmienić status na edycję, odblokować i zmienić na brutto, zrobić optymalizację i dać do realizacji. ",
     ],
-    correct:"Przekształcić zlecenie na wewnętrzne, po zmianie statusu zapisać i mamy możliwość zmiany wymiarów",
+    correct:
+      "Przekształcić zlecenie na wewnętrzne, po zmianie statusu na edycja zapisać i mamy możliwość zmiany wymiarów",
   },
 
   // {

@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import ReactDOM from "react-dom";
 import BazaPytan from "./BazaPytan/index";
 import QuestionBox from "./Components/QuestionBox";
 import Result from "./Components/Result";
 import Navbar from "./Components/Navbar";
 import QuestionForm from "./Components/AddQuestion";
+import { numberOfQuestion } from "./BazaPytan";
 import "./styles/style.css";
 import "./styles/navbar.css";
 
@@ -13,6 +14,8 @@ class QuizBee extends Component {
     questionBank: [],
     score: 0,
     responses: 0,
+    numberOfTries: 0,
+    questionsLeft: 5,
   };
 
   getQuestions = () => {
@@ -29,31 +32,51 @@ class QuizBee extends Component {
   }
 
   wybranoDobrze = (answerIndex, item, answers, correct) => {
-    if (answerIndex === correct) {
-      console.log("ok poprawna odp");
-      this.setState({
-        score: this.state.score + 1,
-        responses: this.state.responses < 20 ? this.state.responses + 1 : 20,
-      });
+    if (this.state.numberOfTries === 0) {
+      if (answerIndex === correct) {
+        console.log("ok poprawna odp");
+        this.setState((prevState) => ({
+          score: prevState.score + 1,
+          responses: prevState.responses < 20 ? prevState.responses + 1 : 20,
+          numberOfTries: 0,
+        }));
+      }
     }
-    console.log(this.state.score, this.state.responses);
+    this.setState((prevState) => ({
+      questionsLeft: prevState.questionsLeft - 1,
+    }));
+
+    console.log(
+      "Score " + this.state.score,
+      "Responses " + this.state.responses,
+      "Tries " + this.state.numberOfTries,
+      "numberOfQuestions " + numberOfQuestion,
+      "questionsLeft " + this.state.questionsLeft
+    );
   };
 
   wybranoZle = (answerIndex, item, answers, correct) => {
-    this.setState({
-      score: this.state.score + 0,
-      responses: this.state.responses < 20 ? this.state.responses + 1 : 20,
-    });
+    this.setState((prevState) => ({
+      score: prevState.score,
+      responses: prevState.responses < 20 ? prevState.responses + 1 : 20,
+      numberOfTries: prevState.numberOfTries + 1,
+    }));
 
     console.log(typeof answerIndex, typeof correct);
     console.log(answerIndex, correct);
     console.log("odpowiedź zła, nie dodaję punktu");
-    console.log(this.state.score, this.state.responses);
+    console.log(
+      "Score " + this.state.score,
+      "Responses " + this.state.responses,
+      "Tries " + this.state.numberOfTries,
+      "numberOfQuestions " + numberOfQuestion,
+      "questionsLeft " + this.state.questionsLeft
+    );
   };
 
   zakonczGre = () => {
     this.setState({
-      responses: this.state.responses + 1000,
+      responses: this.state.responses,
     });
   };
 
@@ -66,14 +89,33 @@ class QuizBee extends Component {
   };
 
   render() {
+    // const wszystkieBtn = document.querySelectorAll(".answerBtn");
+    // const tablicaWszystkichButtonow = Array.from(wszystkieBtn);
+
+    // const liczbaNiekatywnychBtn = tablicaWszystkichButtonow.filter(
+    //   (obj) => obj.disabled
+    // ).length;
+    // console.log("-------------");
+    // console.log(wszystkieBtn, liczbaNiekatywnychBtn);
+
+    const returnResult = () => {
+      return (
+        <Result
+          score={this.state.score}
+          responses={this.state.responses}
+          grajPonownie={this.grajPonownie}
+        />
+      );
+    };
     return (
       <>
         <div className="container">
           <div className="title">SOFT-TECHNIK QUIZ</div>
-          {this.state.questionBank.length > 0 &&
-            this.state.responses < 20 &&
-            this.state.questionBank.map(
-              ({ question, answers, correct, questionId, src }) => (
+          {this.state.questionBank.map(
+            ({ question, answers, correct, questionId, src }) =>
+              this.state.questionsLeft === 0 ? (
+                returnResult()
+              ) : (
                 <QuestionBox
                   key={questionId}
                   question={question}
@@ -89,15 +131,15 @@ class QuizBee extends Component {
                   wszystkieNieaktywne={() => this.zakonczGre()}
                 />
               )
-            )}
+          )}
 
-          {this.state.responses > 20 ? (
+          {/* {this.state.questionsLeft === 0 ? (
             <Result
               score={this.state.score}
               responses={this.state.responses}
               grajPonownie={this.grajPonownie}
             />
-          ) : null}
+          ) : null} */}
         </div>
       </>
     );
