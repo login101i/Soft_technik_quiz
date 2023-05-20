@@ -1484,6 +1484,13 @@ const qBank = [
       "Przekształcić zlecenie na wewnętrzne, po zmianie statusu na edycja zapisać i mamy możliwość zmiany wymiarów",
   },
 
+  {
+    question:
+      "Symbol nie może zawierać przecinków, myślników, spacji i znaków polskich?",
+    answers: ["Tak", "Tak, ale zapomniałeś o znakach specjalnych.", "Nie"],
+    correct: "Tak, ale zapomniałeś o znakach specjalnych.",
+  },
+
   // {
   //   question: "------------",
   //   answers: [   ],
