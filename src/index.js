@@ -15,7 +15,7 @@ class QuizBee extends Component {
     score: 0,
     responses: 0,
     numberOfTries: 0,
-    questionsLeft: 5,
+    questionsLeft: 20,
   };
 
   getQuestions = () => {
@@ -89,15 +89,6 @@ class QuizBee extends Component {
   };
 
   render() {
-    // const wszystkieBtn = document.querySelectorAll(".answerBtn");
-    // const tablicaWszystkichButtonow = Array.from(wszystkieBtn);
-
-    // const liczbaNiekatywnychBtn = tablicaWszystkichButtonow.filter(
-    //   (obj) => obj.disabled
-    // ).length;
-    // console.log("-------------");
-    // console.log(wszystkieBtn, liczbaNiekatywnychBtn);
-
     const returnResult = () => {
       return (
         <Result
@@ -132,14 +123,6 @@ class QuizBee extends Component {
                 />
               )
           )}
-
-          {/* {this.state.questionsLeft === 0 ? (
-            <Result
-              score={this.state.score}
-              responses={this.state.responses}
-              grajPonownie={this.grajPonownie}
-            />
-          ) : null} */}
         </div>
       </>
     );

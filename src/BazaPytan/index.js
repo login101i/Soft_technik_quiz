@@ -371,13 +371,6 @@ const qBank = [
     correct: "-------",
     questionId: Math.random(),
   },
-
-  {
-    question: "Ścianka tylna szuflady ma grubość :",
-    answers: ["16mm", " tak jak front: 18mm", "22mm"],
-    correct: "16mm",
-    questionId: Math.random(),
-  },
   {
     question: "Ścianka tylna szuflady ma grubość :",
     answers: ["16mm", " tak jak front: 18mm", "22mm"],
